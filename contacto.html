@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/stycontacto.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <h1>Cooper mi Perro</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="preferencias.html">Preferencias</a></li>                
+                <li><a href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a class="active" href="contacto.html">Contacto</a></li>
+            </ul>   
+         
+        </nav>
+    </header>
+    <h2>Datos de Contacto</h2>
+    <div class="contenedor-formulario">
+        <form action="">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder="Escribe tu nombre" required>
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" placeholder="Escribe tus apellidos required">
+            <label for="email">Correo Electronico</label>
+            <input type="email" id="email" placeholder="correoelectronico@gmail.com" required>
+            <label for="país">Pais</label>
+            <select name ="pais" id="pais" required>
+                <option value="Ecuador" >Ecuador</option>
+                <option value="Ecuador" >Chile</option>
+                <option value="Ecuador" >Argentina</option>
+                <option value="Ecuador" >Brasil</option>
+                
+            </select>
+            <label for="comentario">Comentario</label>
+            <textarea name="comentario" id="comentario" placeholder="Tu comentario"></textarea>
+            <label for="motivo">Motivo del contacto</label>
+            <input type="radio" name="motivo" id="motivo"><i>Me gustan las mascotas</i>
+            <input type="radio" name="motivo" id="motivo"><i>Me gustan las pizzas</i>
+            <input type="radio" name="motivo" id="motivo"><i>Quiero conocer la pizzeria</i>
+            <input type="radio" name="motivo" id="motivo"><i>Me gustaría ser cliente</i>
+            <input type="submit" value="Enviar">
+        </form>   
+        
+    </div>
+    <footer class="footer">
+        <p>Derechos Reservados &copy; 2023</p>
+    </footer>
+</body>
+</html>
